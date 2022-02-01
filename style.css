@@ -46,7 +46,7 @@ html,body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    background-image: linear-gradient(180deg, rgba(13,17,34,0) 70%, rgba(13,17,34,1) 100%), url("paris2.jpg");
+    background-image: linear-gradient(180deg, rgba(13,17,34,0) 70%, rgba(13,17,34,1) 100%), url("media/paris2.jpg");
 }
 .welcome-box {
     max-height: 800px;
@@ -248,7 +248,7 @@ figcaption {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(180deg, rgba(13,17,34,1) 0%, rgba(13,17,34,0) 25%, rgba(13,17,34,0) 75%, rgba(13,17,34,1) 100%), url("parc.jpg");
+    background-image: linear-gradient(180deg, rgba(13,17,34,1) 0%, rgba(13,17,34,0) 25%, rgba(13,17,34,0) 75%, rgba(13,17,34,1) 100%), url("media/parc.jpg");
 }
 
 .contact {
