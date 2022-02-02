@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+  <!-- external CSS link + META -->
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 424px)' href="phone.css"/>
+  <link rel="stylesheet" media='screen and (min-width: 425px) and (max-width: 767px)' href="tablet.css"/>
+  <link rel="stylesheet" media="screen and (min-width: 767px)" href="style.css"/>
   <title>Homepage</title>
+
 </head>
 
 <body>
     
-    	<!-- Navbar -->
+<!-- Navbar -->
+
     <nav id="navbar">
       <ul>
         <li class="navbuttons"><a href="#welcome-section">Welcome</a></li>
@@ -20,9 +27,10 @@
       </ul>
     </nav>
     
-    	<!-- Welcome Section -->
-  <header id=bckimg>  
-    <section id="welcome-section">
+<!-- Welcome Section -->
+ 
+    <header id=headerimg>  
+    <section class="welcome-section">
       <div class="welcome-box">
         <div class="welcome-box-content">
           <h1>Hello, my name is J0k.</h1>
@@ -32,10 +40,13 @@
       </div>
     </section>
   </header>  
-    	<!-- Projects -->
-      <h2 id=project-tile>PROJECTS</h2>
-      <hr style="width: 400px;">
-    <section id="projects">
+    	
+<!-- Projects -->
+    
+    <section id="project-tile">
+      <h2>PROJECTS</h2>
+      <hr>
+      <div id="projects-container">
         <div class="project1">
           <h3 class=project-tile>My personal Portfolio</h3>
           <p class="projectdescription">The very same you're looking at! The code will be messy for a while.</p>
@@ -51,40 +62,43 @@
           <p class="projectdescription">I'm already working on the next idea! Stay Tuned.</p>
           <img src="media/tease.png" alt="Soon">
         </div>
+      </div>
     </section>
 
-    	<!-- About Me -->
-      <hr id="abtme" style="width: 400px;">
-      <h4>ABOUT ME</h4>
-      <section id="about-me">
-        <div class="aboutme">
-          <figure class="writing">
-            <img src="media/writing.jpg" alt="Hobby, writing">
-            <figcaption>"One day I will find the right words, and they will be simple."</figcaption>
-          </figure>  
-          <div class="aboutme-box">
-            <p>If I had to talk about one of my hobbies, writing would come to my mind; I rarely share my texts as they're average or too private,
+<!-- About Me -->
+
+    <hr id="abtme">
+    <h2>ABOUT ME</h2>
+    <div id="aboutmeimg">
+    <section id="about-me">
+      <div class="aboutme">
+        <figure class="writing">
+          <img src="media/writing.jpg" alt="Hobby, writing">
+          <figcaption>"One day I will find the right words, and they will be simple."</figcaption>
+        </figure>  
+        <div class="aboutme-box">
+          <p>If I had to talk about one of my hobbies, writing would come to my mind; I rarely share my texts as they're average or too private,
               but I'm quite active. Writing down my impressions, the dream I had last night, or original scenarios... It helps me dealing with my thoughts. I also like making
               people feel emotions through my stories. I hope one day to be good enough to create a popular fiction. Coding might be similar to writing; after all, I'm typing lines with the goal of composing a media.
-            </p>
-          </div>  
-        </div>
+          </p>
+        </div>  
+      </div>
     </section>
- 
-    <!-- Contact -->
-  <section class="contact">
-    <script src="js/script.js"></script>
-    <h5 id="contact">CONTACT</h5>
-    <hr style="width: 400px;">
-    <div class="banner">
-      <p>Want to send me a message about my code, projects, or anything else? </p>
-      <p id="p1">J0k#6876</p>
-      <a href="https://github.com/J0k6876" alt="My Github account." id="profile-link" target="blank"><img src="media/github.png" alt="GitHub"></a>
-      <button id="b" class="button" type="button"><img src="media/discord.png" alt="Discord" height="120px" width="120px"></button>
-      <a href="https://dictionary.cambridge.org/dictionary/english/soon" alt="My Twitter account." id="profile-link" target="blank"><img src="media/twitter.png" alt="Twitter"></a>
     </div>
+ 
+<!-- Contact -->
+
+  <section class="contact">
+    <h2 id="contact">CONTACT</h2>
+    <hr>
+      <div class="banner">
+        <p>Want to send me a message about my code, projects, or anything else? </p>
+        <p id="p1">J0k#6876</p>
+        <a href="https://github.com/J0k6876" alt="My Github account." id="profile-link" target="blank"><img src="media/github.png" alt="GitHub"></a>
+        <button id="b" class="button" type="button"><img src="media/discord.png" alt="Discord" height="120px" width="120px"></button>
+        <a href="https://dictionary.cambridge.org/dictionary/english/soon" alt="My Twitter account." id="profile-link" target="blank"><img src="media/twitter.png" alt="Twitter"></a>
+      </div>
   </section>
-  <script src="script.js"></script>
 </body>
 </html>
         
