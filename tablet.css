@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+html,body {
+    font-family: 'Amatic SC', sans-serif;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(13 17 34);
+    color: rgb(13 17 34);
+    box-sizing: border-box;
+}
+#navbar {
+    width: 100vw;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(13, 17, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+}
+#navbar ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-inline-start: 0;
+}
+#navbar li {
+    float: left;
+    font-size: 5.5vw;
+}
+#navbar li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+}
+#headerimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(13,17,34,0) 70%, rgba(13,17,34,1) 100%), url("media/paris2.jpg");
+    height: 80vh;
+}
+
+.welcome-section {
+    height: 80vh;
+    width: 100%;
+}
+
+.welcome-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-box-content {
+    padding: 10px 60px;
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(13, 17, 34, 0.753);
+    border-color: white;
+    border: 1px solid;
+    font-size: 4.5vw;
+}
+
+h2 {
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#projects-container {
+    gap: 10px;
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(13, 17, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    z-index: 1;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.projectdescription {
+    font-size: 20px;
+}
+
+.project1 {
+    padding: 30px 60px 0px;
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    border-color: white;
+    border: 1px solid;
+    width: 400px;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.project1 img {
+    object-fit: contain;
+    overflow: hidden;
+    width: 90%;
+    position: absolute;
+    top: 45%;
+	right: 0px;
+	bottom: 0px;
+	left: 0px; 
+    margin: 0 auto;
+}
+
+.project2 {
+    padding: 30px 60px 0px;
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    border-color: white;
+    border: 1px solid;
+    width: 400px;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.project2 img {
+    object-fit: contain;
+    overflow: hidden;
+    width: 90%;
+    position: absolute;
+    top: 45%;
+	right: 0px;
+	bottom: 0px;
+	left: 0px; 
+    margin: 0 auto;
+}   
+
+.project3 {
+    padding: 30px 60px 0px;
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    border-color: white;
+    border: 1px solid;
+    width: 400px;
+    height: 65vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.project3 img {
+    object-fit: contain;
+    overflow: hidden;
+    width: 90%;
+    position: absolute;
+    top: 45%;
+	right: 0px;
+	bottom: 0px;
+	left: 0px; 
+    margin: 0 auto;
+}
+
+h4 {
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+ }
+
+.aboutme {
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 130px;
+    z-index: 1;
+}
+
+.writing {
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    height: 52vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.writing img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 425px;
+}
+
+figcaption {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute; 
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+.aboutme-box {
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    border-color: white;
+    border: 1px solid;
+    width: 424px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(13, 17, 34, 0.753);
+
+}
+
+.aboutme-box p {
+    font-size: 22px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13em
+    
+}
+#aboutmeimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(13,17,34,1) 0%, rgba(13,17,34,0) 25%, rgba(13,17,34,0) 75%, rgba(13,17,34,1) 100%), url("media/parc.jpg");
+}
+
+.contact {
+    padding: 0px 60px 80px;
+    letter-spacing: 4px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(13, 17, 34, 0.753);
+    font-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 35px;
+}
+.button {
+    background-color:white;
+}
+
+#p1 {
+    display: none;
+}
